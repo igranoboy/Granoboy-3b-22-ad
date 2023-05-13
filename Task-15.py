@@ -6,5 +6,4 @@ class Car:
         self.price = price
 
     def print_information(self):
-        print('Марка - модель: ', self.brand, ' ', self.model, ', год выпуска ', self.manufacture_year, ', цена ',
-              self.price)
+        print(self.brand, ' — ', self.model, ', ', self.manufacture_year, ', ', self.price)
