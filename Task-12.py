@@ -1,2 +1,2 @@
 class Student:
-    def __init__(self, name, surname, ):
+    def __init__(self, name, surname, course):
