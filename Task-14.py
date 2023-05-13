@@ -6,5 +6,4 @@ class Student:
         self.speciality = speciality
 
     def print_information(self):
-        print('Имя - фамилия: ', self.name, ' ', self.surname, ', возраст ', self.age, ' лет, специальность ',
-              self.speciality)
+        print(self.name, ' — ', self.surname, ', ', self.age, ' лет, ', self.speciality)
