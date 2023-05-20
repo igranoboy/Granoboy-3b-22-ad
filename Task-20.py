@@ -7,5 +7,4 @@ print('Массив: ', my_list)
 
 my_list.sort()
 print('Минимальное значение: ', my_list[0])
-print('Максимальное значение: ', my_list[9])
-
+print('Максимальное значение: ', my_list[-1])
