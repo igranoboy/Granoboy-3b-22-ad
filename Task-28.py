@@ -10,7 +10,6 @@ def calculator(a, b, operator):
             result = a / b
         else:
             print('На 0 делить нельзя')
-            return
     print(result)
 
 num_1 = float(input('Введите первое число: '))
