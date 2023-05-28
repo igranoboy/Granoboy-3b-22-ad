@@ -1,3 +1,10 @@
-list = input('Введите список чисел через запятую: ')
-sorted_list = list.sort()
-print(sorted_list[:2])
+list = []
+num = ''
+while num != 'end':
+    num = input('Введите число или слово end, чтобы закончить список: ')
+    if num == 'end':
+        break
+    else:
+        list.append(int(num))
+
+print(sorted(list)[:2])
