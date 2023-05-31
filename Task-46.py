@@ -1,5 +1,5 @@
 try:
     with open(test.txt) as file:
         file.write('Hello, world!')
-except:
+except Exception:
     print('Ошибка')
