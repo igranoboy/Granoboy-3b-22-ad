@@ -8,4 +8,4 @@ for elem in list:
     else:
         continue
 average = amount / divider
-print('Среднее арифметическое: ', average)
+print('Среднее арифметическое элементов > 10: ', average)
